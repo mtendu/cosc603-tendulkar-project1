@@ -1,0 +1,17 @@
+Task 1
+
+Eclipse IDE:
+I am familiar with Eclipse IDE and worked with Eclipse IDE for couple of Java projects. Compared to other IDEs, Eclipse is user friendly and have good user interface. It is a wonderful coding tool and reduces development time by providing option to generate some methods such as getter, setter, and constructors automatically. Eclipse IDE is not limited to Java programming language, it supports other programming language such as C++, python. Eclipse offers wide variety of plug-ins which are free and open source to develop applications.
+Github:
+Github is online repository to save the projects. It is version control system, which manages and saves the versions of the projects. As it is online repository, we can download the projects in our system and make changes in the projects and again push the revised project into central repository. 
+Github Desktop:
+Github Desktop is configuration management tool for Github repository. Adding repository or cloning the existing repository is simple as compared to using command line. Apart from it, Github Desktop can be used to create branches, committing changes and perform merges.
+JAutoDoc:
+JAutoDoc is an Eclipse plug-in to automatically add JavaDoc and file headers to the source code. 
+JavaDoc:
+JavaDoc is the program used to create HTML documentation from JavaDoc comments in the code. We can easily understand the structure of the project i.e. packages, classes and provides descriptions about the methods in the class. It documents all the public classes, interfaces, methods and variables. JavaDoc comments begins with   /** and ends with */.  JavaDoc comments have some pre-defined tags: 
+1.	@author: The author of the class
+2.	@param:  Describes the argument of the method or constructor.
+3.	@return:  Describes the data returned by the method.
+
+

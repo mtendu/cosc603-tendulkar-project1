@@ -12,25 +12,25 @@ package com.pojo;
 public class FireIndex {
 	
 	/** The drying factor. */
-	double dryingFactor = 0;
+	private double dryingFactor_ = 0;
 	
 	/** The fine fuel moisture. */
-	double fineFuelMoisture = 99;
+	private double fineFuelMoisture_ = 99;
 	
 	/** The adjusted fuel moisture. */
-	double adjustedFuelMoisture = 99;
+	private double adjustedFuelMoisture_ = 99;
 	
 	/** The grass spread index. */
-	double grassSpreadIndex = 0;
+	private double grassSpreadIndex_ = 0;
 	
 	/** The timber spread index. */
-	double timberSpreadIndex = 0;
+	private double timberSpreadIndex_ = 0;
 	
 	/** The fire load rating. */
-	double fireLoadRating = 0;
+	private double fireLoadRating_ = 0;
 	
 	/** The build up index. */
-	double buildUpIndex = 0;
+	private double buildUpIndex_ = 0;
 	
 	/**
 	 * Gets the drying factor.
@@ -38,7 +38,7 @@ public class FireIndex {
 	 * @return the drying factor
 	 */
 	public double getDryingFactor() {
-		return dryingFactor;
+		return dryingFactor_;
 	}
 	
 	/**
@@ -47,7 +47,7 @@ public class FireIndex {
 	 * @param dryingFactor the new drying factor
 	 */
 	public void setDryingFactor(double dryingFactor) {
-		this.dryingFactor = dryingFactor;
+		this.dryingFactor_ = dryingFactor;
 	}
 	
 	/**
@@ -56,7 +56,7 @@ public class FireIndex {
 	 * @return the fine fuel moisture
 	 */
 	public double getFineFuelMoisture() {
-		return fineFuelMoisture;
+		return fineFuelMoisture_;
 	}
 	
 	/**
@@ -65,7 +65,7 @@ public class FireIndex {
 	 * @param fineFuelMoisture the new fine fuel moisture
 	 */
 	public void setFineFuelMoisture(double fineFuelMoisture) {
-		this.fineFuelMoisture = fineFuelMoisture;
+		this.fineFuelMoisture_ = fineFuelMoisture;
 	}
 	
 	/**
@@ -74,7 +74,7 @@ public class FireIndex {
 	 * @return the adjusted fuel moisture
 	 */
 	public double getAdjustedFuelMoisture() {
-		return adjustedFuelMoisture;
+		return adjustedFuelMoisture_;
 	}
 	
 	/**
@@ -83,7 +83,7 @@ public class FireIndex {
 	 * @param adjustedFuelMoisture the new adjusted fuel moisture
 	 */
 	public void setAdjustedFuelMoisture(double adjustedFuelMoisture) {
-		this.adjustedFuelMoisture = adjustedFuelMoisture;
+		this.adjustedFuelMoisture_ = adjustedFuelMoisture;
 	}
 	
 	/**
@@ -92,7 +92,7 @@ public class FireIndex {
 	 * @return the grass spread index
 	 */
 	public double getGrassSpreadIndex() {
-		return grassSpreadIndex;
+		return grassSpreadIndex_;
 	}
 	
 	/**
@@ -101,7 +101,7 @@ public class FireIndex {
 	 * @param grassSpreadIndex the new grass spread index
 	 */
 	public void setGrassSpreadIndex(double grassSpreadIndex) {
-		this.grassSpreadIndex = grassSpreadIndex;
+		this.grassSpreadIndex_ = grassSpreadIndex;
 	}
 	
 	/**
@@ -110,7 +110,7 @@ public class FireIndex {
 	 * @return the timber spread index
 	 */
 	public double getTimberSpreadIndex() {
-		return timberSpreadIndex;
+		return timberSpreadIndex_;
 	}
 	
 	/**
@@ -119,7 +119,7 @@ public class FireIndex {
 	 * @param timberSpreadIndex the new timber spread index
 	 */
 	public void setTimberSpreadIndex(double timberSpreadIndex) {
-		this.timberSpreadIndex = timberSpreadIndex;
+		this.timberSpreadIndex_ = timberSpreadIndex;
 	}
 	
 	/**
@@ -128,7 +128,7 @@ public class FireIndex {
 	 * @return the fire load rating
 	 */
 	public double getFireLoadRating() {
-		return fireLoadRating;
+		return fireLoadRating_;
 	}
 	
 	/**
@@ -137,7 +137,7 @@ public class FireIndex {
 	 * @param fireLoadRating the new fire load rating
 	 */
 	public void setFireLoadRating(double fireLoadRating) {
-		this.fireLoadRating = fireLoadRating;
+		this.fireLoadRating_ = fireLoadRating;
 	}
 	
 	/**
@@ -146,7 +146,7 @@ public class FireIndex {
 	 * @return the builds the up index
 	 */
 	public double getBuildUpIndex() {
-		return buildUpIndex;
+		return buildUpIndex_;
 	}
 	
 	/**
@@ -155,15 +155,15 @@ public class FireIndex {
 	 * @param buildUpIndex the new builds the up index
 	 */
 	public void setBuildUpIndex(double buildUpIndex) {
-		this.buildUpIndex = buildUpIndex;
+		this.buildUpIndex_ = buildUpIndex;
 	}
 
 	@Override
 	public String toString() {
-		return "FireIndex [dryingFactor=" + dryingFactor + ", fineFuelMoisture=" + fineFuelMoisture
-				+ ", adjustedFuelMoisture=" + adjustedFuelMoisture + ", grassSpreadIndex=" + grassSpreadIndex
-				+ ", timberSpreadIndex=" + timberSpreadIndex + ", fireLoadRating=" + fireLoadRating + ", buildUpIndex="
-				+ buildUpIndex + "]";
+		return "FireIndex [dryingFactor=" + dryingFactor_ + ", fineFuelMoisture=" + fineFuelMoisture_
+				+ ", adjustedFuelMoisture=" + adjustedFuelMoisture_ + ", grassSpreadIndex=" + grassSpreadIndex_
+				+ ", timberSpreadIndex=" + timberSpreadIndex_ + ", fireLoadRating=" + fireLoadRating_ + ", buildUpIndex="
+				+ buildUpIndex_ + "]";
 	}
 	
 	
